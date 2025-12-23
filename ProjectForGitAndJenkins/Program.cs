@@ -10,14 +10,14 @@ namespace ProjectForGitAndJenkins
     {
         public void display()
         {
-            int a = 6;
+            int a = 16;
             int b = 6;
             Console.WriteLine("addition is : "+a + b);
         }
         static void Main(string[] args)
         {
             Program program = new Program();
-            program.display();
+            program.display(); 
         }
     }
 }
